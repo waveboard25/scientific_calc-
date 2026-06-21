@@ -17,3 +17,12 @@ def div():
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
     print("Division =", a / b)
+
+# Added scientific calculator functions
+# square
+# cube
+# power
+# factorial
+# percentage
+# modulus
+
