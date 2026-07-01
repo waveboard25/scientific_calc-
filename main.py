@@ -47,3 +47,9 @@ def factorial(number):
     if number < 0:
         return "Error: Factorial not defined for negative numbers"
     return math.factorial(number)
+
+def radians_to_degrees(radian_value):
+    return math.degrees(radian_value)
+
+def degrees_to_radians(degree_value):
+    return math.radians(degree_value)
