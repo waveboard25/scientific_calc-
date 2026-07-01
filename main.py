@@ -65,4 +65,13 @@ def average(a, b):
 def floor_value(number):
     return math.floor(number)
 
-def ceil_value(number):
+def ceil_value(number)
+i    return math.ceil(number)
+
+def radians(angle):
+    return math.radians(angle)
+
+def degrees(angle):
+    return math.degrees(angle)
+
+print("Extra Functions Loaded"):
