@@ -45,3 +45,13 @@ def tangent(angle_degrees):
 
 def absolute(number):
     return abs(number)
+
+def reciprocal(number):
+    if number == 0:
+        return "Error: Division by zero"
+    return 1 / number
+
+def maximum(a, b):
+    return max(a, b)
+
+def minimum(a, b):
