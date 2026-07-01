@@ -1,7 +1,6 @@
-#square root operation
 import math
 
-def sqrt(num):
+def square_root(num):
+    if num <0:
+        return "Error: Cannot take square root of a negative number"
     return math.sqrt(num)
-
-print(sqrt(25))
