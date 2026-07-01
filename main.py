@@ -37,3 +37,11 @@ def natural_log(number):
     if number <= 0:
         return "Error: Log undefined"
     return math.log(number)
+def cosine(angle_degrees):
+    return math.cos(math.radians(angle_degrees))
+
+def tangent(angle_degrees):
+    return math.tan(math.radians(angle_degrees))
+
+def absolute(number):
+    return abs(number)
