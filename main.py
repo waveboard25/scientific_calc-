@@ -55,3 +55,14 @@ def maximum(a, b):
     return max(a, b)
 
 def minimum(a, b):
+
+
+    return min(a, b)
+
+def average(a, b):
+    return (a + b) / 2
+
+def floor_value(number):
+    return math.floor(number)
+
+def ceil_value(number):
