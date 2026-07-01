@@ -33,6 +33,9 @@ def square_root(number):
 def sine(angle_degrees):
     return math.sin(math.radians(angle_degrees))
 
+def cosine(angle_degrees):
+    return math.cosine(math.radians(angle_degrees))
+
 def natural_log(number):
     if number <= 0:
         return "Error: Log undefined"
