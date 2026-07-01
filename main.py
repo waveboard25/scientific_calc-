@@ -75,3 +75,16 @@ def degrees(angle):
     return math.degrees(angle)
 
 print("Extra Functions Loaded"):
+
+
+
+
+
+def cube_root(number):
+    return number ** (1/3)
+
+def is_even(number):
+    return number % 2 == 0
+
+def is_odd(number):
+    return number % 2 != 0
